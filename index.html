@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="button">
+        <a href="#" class="open_pop_up">Кликни</a>
+    </div>
+
+    <div class="pop_up">
+        <div class="pop_up_container">
+            <div class="pop_up_body">
+                <div class="pop_up-items">
+                    <p>Получите набор файлов <br> для руководителя</p>
+                    <img class="bg__img-item" src="layer.png" alt="">
+                </div>
+                <form action="#" id="form" class="form_body">
+                    <p class="form_text">Введите Email для получения файлов:</p>
+                    <input type="email" name="email" id="formEmail" placeholder="E-mail" class="_req">
+                    <p class="form_text">Введите телефон для подтверждения доступа:</p>
+                    <input
+                    required
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    class="tel"
+                    value=""
+                    placeholder="+7(000)000-00-00" />
+                    <button type="submit">Скачать файлы</button>
+                    <img class="button__img-fingers" src="l2.png">
+                    <div class="span">
+                        <span>PDF 4,7 MB</span>
+                        <span>DOC 0,8 MB</span>
+                        <span>XLS 1,2 MB</span>
+                    </div>
+                </form>
+                <div class="pop_up_close">
+                    &#215;
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
